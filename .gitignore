@@ -1,0 +1,30 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# 临时文件
+/tmp/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
